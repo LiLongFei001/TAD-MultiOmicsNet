@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow import keras
 from model import init_model, fun
 # Load global project configurations
-from config import root_dir, cell, resolution, display_reso
+from config import root_dir, resolution, display_reso
 
 cell = "GM12878"
 SEED = 42  # 5 sets of random seeds:42,43,44,45,46
